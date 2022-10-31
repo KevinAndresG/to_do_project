@@ -1,0 +1,55 @@
+.textArea {
+    width: 500px;
+    height: 220px;
+    resize: none;
+    text-align: center;
+    border: none;
+    border-radius: 30px;
+    outline: none;    
+    font-size: 30px;
+    color: #a2a2a2;
+    border: 10px rgba(75, 75, 75, 0.8) solid;
+    background-color: rgb(75, 75, 75);
+    box-shadow: inset 2px 2px 5px rgb(106, 106, 106), inset -2px -2px 5px #1a1a1a, 2px 2px 5px rgb(106, 106, 106), -2px -2px 5px #1a1a1a;
+}
+
+.btn {
+    display: inline;
+    text-align: center;
+    width: 150px;
+    height: 50px;
+    margin: 50px;
+    border-radius: 20px;
+    border: none;
+    font-size: larger;
+    font-weight: lighter;
+    color: rgb(225, 225, 225);
+    cursor: pointer;
+    border: 5px rgba(75, 75, 75, 0.8) solid;
+    background-color: rgb(75, 75, 75);
+    box-shadow: inset 2px 2px 5px rgb(106, 106, 106), inset -2px -2px 5px #1a1a1a, 2px 2px 5px rgb(106, 106, 106), -2px -2px 5px #1a1a1a;
+    transition: .3s ease;
+}
+
+.buttons {
+    text-align: center;
+}
+
+.cancelButton {
+    text-shadow: 0px 1px 3px rgb(255, 0, 0), 0px -1px 3px rgb(255, 0, 0);
+}
+.cancelButton:hover {
+    transition: 0.3s ease;
+    box-shadow: 2px 2px 5px rgb(106, 106, 106), -2px -2px 5px #1a1a1a;
+    text-shadow: 0px 1px 10px rgb(255, 0, 0), 0px -1px 10px rgb(255, 0, 0);
+    border: none;
+}
+.createButton {
+    text-shadow: 0px 1px 3px rgb(0, 255, 255), 0px -1px 3px rgb(0, 255, 255);
+}
+.createButton:hover {
+    transition: 0.3s ease;
+    box-shadow: 2px 2px 5px rgb(106, 106, 106), -2px -2px 5px #1a1a1a;
+    text-shadow: 0px 1px 10px rgb(0, 255, 255), 0px -1px 10px rgb(0, 255, 255);
+    border: none;
+}

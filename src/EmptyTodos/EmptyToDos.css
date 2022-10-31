@@ -1,0 +1,99 @@
+.firstTodoText {
+    text-align: center;
+}
+
+.buttonNoToDos {
+    position: relative;
+    font-size: xx-large;
+    font-weight: bold;
+    color: rgb(81, 81, 81);
+    width: 90px;
+    height: 90px;
+    cursor: pointer;
+    border-radius: 50%;
+    border: 5px #dfdfdf solid;
+    background-color: #dfdfdf;
+    box-shadow: inset 2px 2px 5px rgb(245, 245, 245), inset -2px -2px 5px #b8b8b8, 2px 2px 5px rgb(245, 245, 245), -2px -2px 5px #b8b8b8;
+    transition: 0.5s ease;
+    z-index: 5;
+}
+
+.buttonNoToDos:hover {
+    transition: 0.3s ease;
+    box-shadow: -2px -2px 5px #b8b8b8, 2px 2px 5px rgb(245, 245, 245);
+    text-shadow: 0px 1px 10px rgb(0, 255, 255), 0px -1px 10px rgb(0, 255, 255);
+    border: none;
+}
+
+.body {
+    text-align: center;
+    overflow: hidden;
+    /* margin-top: 40px; */
+    margin-bottom: 60px;
+}
+
+
+.slashed {
+    text-align: center;
+    width: auto;
+    height: auto;
+    position: absolute;
+    top: 10;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin-bottom: 10%;
+    /* margin-top: 5px; */
+    text-shadow: 3px 3px 3px rgba(0, 0, 0, 0.5);
+}
+
+.slashed .top,
+.slashed .bot {
+    text-align: center;
+    font: 32px/50px arial;
+    text-transform: uppercase;
+    text-align: center;
+    overflow: hidden;
+    color: rgb(55, 55, 55);
+}
+
+.slashed .top:before,
+.slashed .bot:before {
+    content: attr(title);
+    -webkit-transform: rotate(5deg);
+    -moz-transform: rotate(5deg);
+    -o-transform: rotate(5deg);
+    -ms-transform: rotate(5deg);
+    transform: rotate(3deg);
+}
+
+.slashed .top {
+    position: absolute;
+    top: 0;
+    left: 1px;
+    right: 0;
+    bottom: 49%;
+}
+
+.slashed .top:before {
+    position: absolute;
+    bottom: -20px;
+    left: 0;
+    right: 0;
+}
+
+.slashed .bot {
+    position: absolute;
+    top: 52%;
+    left: 0;
+    right: 1px;
+    bottom: 0;
+}
+
+.slashed .bot:before {
+    position: absolute;
+    top: -33px;
+    left: 0;
+    right: 0;
+}

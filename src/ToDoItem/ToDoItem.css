@@ -1,0 +1,77 @@
+.items {
+  width: 400px;
+  height: 90px;
+  margin: 0;
+  color: rgb(81, 81, 81);
+  margin-top: 20px;
+  margin-bottom: 20px;
+  /* margin-left: 10px;
+  margin-right: 10px; */
+  display: flex;
+  border: 5px #dfdfdf solid;
+  border-radius: 10px;
+  box-shadow: inset 2px 2px 5px rgb(245, 245, 245),
+    inset -2px -2px 5px #b8b8b8,
+    3px 3px 10px rgb(245, 245, 245),
+    -2px -2px 5px #b8b8b8;
+    transition: 0.2s ease;
+}
+
+.items:hover {
+  /* width: 100%; */
+  /* color: white; */
+  border-radius: 10px;
+  box-shadow: inset 0px 0px 20px cyan, inset -0px -0px 20px cyan;
+  transition: 0.2s ease-in;
+  cursor: default;
+  /* text-align: center; */
+}
+
+.icon-check {
+  height: 30px;
+  font-size: larger;
+  margin-top: 30px;
+  margin-right: 10px;
+  margin-left: 10px;
+  text-shadow: 1px 1px 3px rgb(0, 0, 0), 0px 0px 3px rgb(88, 88, 88);
+}
+
+.icon-check:hover {
+  color: #00ff00;
+  cursor: pointer;
+}
+
+.icon-delete {
+  height: 25px;
+  font-size: larger;
+  margin-right: 5px;
+  margin-left: 5px;
+  padding: 5px;
+  cursor: pointer;
+  text-shadow: 1px 1px 3px rgb(0, 0, 0), 0px 0px 3px rgb(88, 88, 88);
+}
+
+.icon-delete:hover {
+  color: #ff0000;
+}
+
+.todoItem-p {
+  width: 100%;
+  height: 25px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  overflow: auto;
+}
+
+.icon-check--active {
+  color: rgba(64, 224, 208, 0.527);
+}
+
+.todoItem-p--completed {
+  text-decoration: line-through #9d9d9d 3px;
+  padding-left: 5px;
+  color: #ababab;
+  border-radius: 10px;
+  border: 5px #dfdfdf solid;
+  box-shadow: inset 2px 2px 5px rgb(245, 245, 245), inset -2px -2px 5px #b8b8b8, 2px 2px 5px rgb(245, 245, 245), -2px -2px 5px #b8b8b8;
+}

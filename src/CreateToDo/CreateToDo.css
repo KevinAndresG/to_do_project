@@ -1,0 +1,57 @@
+.button {
+  position: fixed;
+  font-size: xx-large;
+  font-weight: bold;
+  color: rgb(81, 81, 81);
+  width: 90px;
+  height: 90px;
+  cursor: pointer;
+  margin-right: 550px;
+  border-radius: 50%;
+  border: 5px #dfdfdf solid;
+  background-color: #dfdfdf;
+  box-shadow: inset 2px 2px 5px rgb(245, 245, 245), inset -2px -2px 5px #b8b8b8, 2px 2px 5px rgb(245, 245, 245), -2px -2px 5px #b8b8b8;
+  bottom: 1%;
+  left: 92%;
+  transition: 0.5s ease;
+  z-index: 5;
+  /* text-align: center; */
+  padding-top: 10px;
+}
+
+.button:hover {
+  transition: 0.3s ease;
+  box-shadow: -2px -2px 5px #b8b8b8, 2px 2px 5px rgb(245, 245, 245);
+  text-shadow: 0px 1px 10px rgb(0, 255, 255), 0px -1px 10px rgb(0, 255, 255);
+  border: none;
+}
+
+.hidebtn {
+  display: none;
+}
+
+.buttonDark {
+  position: fixed;
+  font-size: xx-large;
+  font-weight: bold;
+  color: rgb(225, 225, 225);
+  width: 90px;
+  height: 90px;
+  cursor: pointer;
+  margin-right: 550px;
+  border-radius: 50%;
+  border: 5px rgba(75, 75, 75, 0.8) solid;
+  background-color: rgba(75, 75, 75, 0.8);
+  box-shadow: inset 2px 2px 5px rgb(91, 91, 91), inset -2px -2px 5px #1a1a1a, 2px 2px 5px rgb(91, 91, 91), -2px -2px 5px #1a1a1a;
+  bottom: 1%;
+  left: 92%;
+  transition: 0.5s ease;
+  z-index: 1;
+}
+
+.buttonDark:hover {
+  transition: 0.3s ease;
+  box-shadow: -2px -2px 5px #1a1a1a, 2px 2px 5px rgb(106, 106, 106);
+  text-shadow: 0px 1px 10px rgb(0, 255, 255), 0px -1px 10px rgb(0, 255, 255);
+  border: none;
+}

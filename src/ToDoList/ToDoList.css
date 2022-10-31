@@ -1,0 +1,15 @@
+.tdlist {
+  /* position: relative; */
+  width: 400px;
+  font-size: 20px;
+  list-style: none;
+  /* border: 1px outset aqua;
+  outline: 1px outset turquoise; */
+  /* box-shadow: 0px 2px 15px turquoise; */
+  margin: auto;
+  margin-top: 10px;
+  margin-bottom: 50px;
+  /* background-color: rgb(241, 241, 241); */
+  padding: 10px;
+  
+}
